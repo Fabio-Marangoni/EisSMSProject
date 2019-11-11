@@ -11,7 +11,7 @@ import com.gruppo3.smsconnection.connection.ReceivedMessageListener;
 import java.util.ArrayList;
 import java.util.Optional;
 
-public class SMSHandler extends NotificationListenerService {
+    public class SMSHandler extends NotificationListenerService {
 
     private static final char APP_ID = (char)0x02;
     private static final String LOG_KEY = "SMS_HANDLER";
